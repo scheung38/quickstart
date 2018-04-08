@@ -1,0 +1,7 @@
+---
+data_sources: [ "file" , "environment" ]
+template_sources: [ "file" ]
+environments:
+  development:
+    db.erb:
+      target: db.ini
