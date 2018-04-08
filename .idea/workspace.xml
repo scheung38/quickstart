@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f652c7c-e1b4-4c8f-9759-9667cca5da5d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6f652c7c-e1b4-4c8f-9759-9667cca5da5d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -80,12 +78,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523210840406</updated>
-      <workItem from="1523210843353" duration="796000" />
+      <workItem from="1523210843353" duration="1108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="796000" />
+    <option name="totallyTimeSpent" value="1108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="386" y="65" width="1276" height="753" extended-state="0" />
@@ -98,7 +96,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" weight="0.4862805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.7469512" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.41006097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
