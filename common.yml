@@ -1,14 +1,19 @@
-# The common.yml configuration loads the File plugin so Tiller can 
-# parse the rest of the configuration, and also enables the Environment plugin. 
-# This by default makes all environment variables available to templates, and 
+# The common.yml configuration loads the File plugin so Tiller can
+# parse the rest of the configuration, and also enables the Environment plugin.
+# This by default makes all environment variables available to templates, and
 # prefixes them with env_ and converts them to lower-case.
 
 ---
-data_sources: [ "file" , "environment" ]
+data_sources: [ "file" , "defaults", "environment" ]
 template_sources: [ "file" ]
+
+defaults:
+  global:
+    env_db_hostname: localhost
+
 environments:
   development:
     db.erb:
       target: db.ini
 
-    
+
